@@ -21,7 +21,6 @@
   ./"${KREW}" install krew
 )
 
-
 * Install 1Password
 https://my.1password.com/
 
@@ -41,6 +40,8 @@ Key: A3-7DJJRM-R8BPJ8-9J87B-SLBHZ-VWM7V-Y2ML2
 helm repo add argo https://argoproj.github.io/argo-helm
 helm repo add jetstack https://charts.jetstack.io
 helm repo add grafana https://grafana.github.io/helm-charts
+helm repo add istiod https://istio-release.storage.googleapis.com/charts
+helm repo add kyverno https://kyverno.github.io/kyverno/
 helm repo add rancher-charts https://charts.rancher.io
 helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
 
